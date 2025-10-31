@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Descubre los mejores productos de belleza: maquillaje, tratamiento facial, perfumes, joyería y más. ¡Cómpralos online aquí!">
+  <meta name="keywords" content="perfumes, joyas, belleza, maquillaje, joyería">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dei Boutique</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Encabezado -->
+  <header class="bg-pink text-white text-center py-3">
+    <h1 class="m-0">Dei Boutique</h1>
+  </header>
+
+  <div class="my-4"></div>
+
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e89bb5;">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white fw-bold" href="#">Perfumes</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="perfumes.html">Ver todo</a></li>
+              <li><a class="dropdown-item" href="">Perfumes de mujer</a></li>
+              <li><a class="dropdown-item" href="#">Colonias</a></li>
+              <li><a class="dropdown-item" href="#">Perfumes hombre</a></li>
+              <li><a class="dropdown-item" href="#">Tipos de Aroma</a></li>
+              <li><a class="dropdown-item" href="#">Intensidades</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white fw-bold" href="#">Maquillaje</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="maquillaje.html">Ver todo</a></li>
+              <li><a class="dropdown-item" href="#">Rostro</a></li>
+              <li><a class="dropdown-item" href="#">Uñas</a></li>
+              <li><a class="dropdown-item" href="#">Ojos</a></li>
+              <li><a class="dropdown-item" href="#">Labios</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white fw-bold" href="#">Cuidado Personal</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="cuidado.html">Ver todo</a></li>
+              <li><a class="dropdown-item" href="#">Cuerpo</a></li>
+              <li><a class="dropdown-item" href="#">Shampoos y colonias</a></li>
+              <li><a class="dropdown-item" href="#">Niños</a></li>
+              <li><a class="dropdown-item" href="#">Cremas de manos</a></li>
+              <li><a class="dropdown-item" href="#">Protector solar</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white fw-bold" href="#">Joyeria</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="joyeria.html">Ver todo</a></li>
+              <li><a class="dropdown-item" href="#">Pulseras</a></li>
+              <li><a class="dropdown-item" href="#">Collares</a></li>
+              <li><a class="dropdown-item" href="#">Anillos</a></li>
+              <li><a class="dropdown-item" href="#">Aretes</a></li>
+              <li><a class="dropdown-item" href="#">Colecciones</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link text-white fw-bold" href="#footer">Contacto</a></li>
+        </ul>
+
+        <!-- Boton de buscar -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar...">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+        <!-- Portada de perfumes -->
+  <div class="my-4"></div>
+  <section class="text-center">
+    <img src="img/joyeria/portada_joyeria.webp" class="img-fluid w-100 d-block rounded shadow" alt="Portada">
+  </section>
+
+
+        <!-- Boton de filtro -->
+  <div class="my-4"></div>
+  <div class="container mb-4">
+    <div class="text-center">
+      <button class="btn btn-outline-secondary px-5" type="button" data-bs-toggle="collapse" data-bs-target="#filtroPerfumes">
+        Filtrar por ▼
+      </button>
+    </div>
+
+    <div class="collapse mt-3" id="filtroPerfumes">
+      <div class="card card-body shadow-sm">
+        <div class="row text-center">
+          <div class="col-6 col-md-4">
+            <label><input type="checkbox"> Anillos</label>
+          </div>
+          <div class="col-6 col-md-4">
+            <label><input type="checkbox"> Aretes</label>
+          </div>
+          <div class="col-6 col-md-4">
+            <label><input type="checkbox"> Cadenas</label>
+          </div>
+          <div class="col-6 col-md-4">
+            <label><input type="checkbox"> Collares</label>
+          </div>
+          <div class="col-6 col-md-4">
+            <label><input type="checkbox"> Pulseras</label>
+          </div>
+        </div>
+        <button class="btn btn-primary mt-3 mx-auto d-block">Aplicar filtro</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALERÍA DE PERFUMES -->
+  <section class="container my-5">
+    <div class="row g-4 justify-content-center">
+
+      <!-- Producto 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center shadow-sm h-100">
+          <img src="img/joyeria/joyeria1.webp" class="card-img-top img-fluid" alt="Aretes Flor">
+          <div class="card-body">
+            <header>
+                <h5 class="card-title">Aretes Flor</h5>
+            </header>
+            <p class="card-text">
+              <span class="text-muted text-decoration-line-through">S/ 80.90</span>
+              <span class="fw-bold text-dark">S/ 33.50</span>
+            </p>
+            <button class="btn btn-warning w-100">Agregar a la bolsa</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center shadow-sm h-100">
+          <img src="img/joyeria/joyeria2.webp" class="card-img-top img-fluid" alt="Collar Crystal">
+          <div class="card-body">
+            <header>
+                <h5 class="card-title">Collar Crystal</h5>
+            </header>
+            <p class="card-text">
+              <span class="text-muted text-decoration-line-through">S/ 75.90</span>
+              <span class="fw-bold text-dark">S/ 29.90</span>
+            </p>
+            <button class="btn btn-warning w-100">Agregar a la bolsa</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center shadow-sm h-100">
+          <img src="img/joyeria/joyeria3.webp" class="card-img-top img-fluid" alt="Collar Niña">
+          <div class="card-body">
+            <header>
+                <h5 class="card-title">Collar Niña</h5>
+            </header>
+            <p class="card-text">
+              <span class="text-muted text-decoration-line-through">S/ 89.90</span>
+              <span class="fw-bold text-dark">S/ 36.90</span>
+            </p>
+            <button class="btn btn-warning w-100">Agregar a la bolsa</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 4 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center shadow-sm h-100">
+          <img src="img/joyeria/joyeria4.webp" class="card-img-top img-fluid" alt="Cadena Floral Golden">
+          <div class="card-body">
+            <header>
+                <h5 class="card-title">Cadena Floral Golden</h5>
+            </header>
+            <p class="card-text">
+              <span class="text-muted text-decoration-line-through">S/ 69.90</span>
+              <span class="fw-bold text-dark">S/ 36.90</span>
+            </p>
+            <button class="btn btn-warning w-100">Agregar a la bolsa</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 5 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center shadow-sm h-100">
+          <img src="img/joyeria/joyeria5.webp" class="card-img-top img-fluid" alt="Pack Aretes">
+          <div class="card-body">
+            <header>
+                <h5 class="card-title">Pack Aretes</h5>
+            </header>
+            <p class="card-text">
+              <span class="text-muted text-decoration-line-through">S/ 49.90</span>
+              <span class="fw-bold text-dark">S/ 36.90</span>
+            </p>
+            <button class="btn btn-warning w-100">Agregar a la bolsa</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Producto 6 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card text-center shadow-sm h-100">
+          <img src="img/joyeria/joyeria6.webp" class="card-img-top img-fluid" alt="Gargantilla Oro">
+          <div class="card-body">
+            <header>
+                <h5 class="card-title">Gargantilla Oro</h5>
+            </header>
+            <p class="card-text">
+              <span class="text-muted text-decoration-line-through">S/ 89.90</span>
+              <span class="fw-bold text-dark">S/ 36.90</span>
+            </p>
+            <button class="btn btn-warning w-100">Agregar a la bolsa</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <div class="my-4"></div>
+  <section class="container my-5">
+    <div class="card shadow-sm p-4">
+        <header>
+            <h2 class="text-center text-pink mb-4">Formulario de registro</h2>
+        </header>
+      <p class="text-center">
+        Si deseas recibir más información sobre los productos o convertirte en Consultora de Belleza, llena los siguientes datos.  
+        Nos pondremos en contacto contigo.
+      </p>
+
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label fw-bold">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="apellidos" class="form-label fw-bold">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" class="form-control">
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="correo" class="form-label fw-bold">Correo:</label>
+          <input type="email" id="correo" name="correo" class="form-control">
+        </div>
+
+        <div class="form-check mb-2">
+          <input class="form-check-input" type="checkbox" id="info">
+          <label class="form-check-label" for="info">Deseo recibir información sobre novedades y ofertas</label>
+        </div>
+
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" id="terminos" checked>
+          <label class="form-check-label" for="terminos">Declaro haber leído y aceptar las condiciones generales y la normativa sobre protección de datos</label>
+        </div>
+
+        <button type="submit" class="btn btn-pink w-100">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+<footer class="bg-pink text-white text-center py-4 mt-5" id="footer">
+  <div class="container">
+    <header>
+        <h3>Contacto</h3>
+    </header>
+    <p class="m-0">Email: contacto@deiboutique.com</p>
+
+    <!-- Redes sociales -->
+    <div class="d-flex justify-content-center align-items-center gap-3 mt-3">
+      <a href="#" class="text-white text-decoration-none d-flex align-items-center">
+        <img src="img/footer/facebook.webp" alt="Facebook" class="social-icon me-2">
+        <span>@Dei Beauty Store</span>
+      </a>
+      <a href="#" class="text-white text-decoration-none d-flex align-items-center">
+        <img src="img/footer/instagram.webp" alt="Instagram" class="social-icon me-2">
+        <span>@Dei Beauty Store</span>
+      </a>
+      <a href="#" class="text-white text-decoration-none d-flex align-items-center">
+        <img src="img/footer/tiktok.webp" alt="TikTok" class="social-icon me-2">
+        <span>@Dei Beauty Store</span>
+      </a>
+      <a href="#" class="text-white text-decoration-none d-flex align-items-center">
+        <img src="img/footer/whatsapp.webp" alt="Whatsapp" class="social-icon me-2">
+        <span>+51 987 654 321</span>
+      </a>
+    </div>
+
+    <hr class="my-3 border-light" style="opacity: 0.3;">
+
+    <p class="m-0">&copy; 2025 Dei Boutique | Todos los derechos reservados</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
